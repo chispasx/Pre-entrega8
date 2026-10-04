@@ -1,0 +1,28 @@
+{
+  "name": "shipnow",
+  "version": "1.0.0",
+  "type": "module",
+"scripts": {
+  "dev": "nodemon server.js",
+  "start": "node server.js",
+  "test": "cross-env NODE_ENV=test mocha --timeout 15000 tests/**/*.test.js"
+},
+  "dependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^8.24.1",
+    "multer": "^2.3.0",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.19.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^6.3.0",
+    "cross-env": "^10.1.0",
+    "mocha": "^12.0.3",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.3.1"
+  }
+}

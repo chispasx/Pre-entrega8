@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (mantener solo plantilla)
+.env
+.env.*
+!.env.example
+
+# Git y editor
+.git/
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Archivos cargados / temporales
+uploads/
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
